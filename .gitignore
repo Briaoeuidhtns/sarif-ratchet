@@ -14,7 +14,6 @@ publish/
 
 # Nix specific
 .direnv/
-.envrc
 
 # OS files
 .DS_Store
