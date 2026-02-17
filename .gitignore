@@ -11,6 +11,7 @@
 publish/
 /result
 /result-*
+node_modules/
 
 # Nix specific
 .direnv/
