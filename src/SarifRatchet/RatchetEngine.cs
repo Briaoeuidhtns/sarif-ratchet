@@ -13,21 +13,21 @@ public enum Strictness
     Loose
 }
 
-[MessagePackObject]
+[MessagePackObject(keyAsPropertyName: true)]
 public record ResultKey(
-    [property: Key(0)] string RuleId,
-    [property: Key(1)] string FilePath,
-    [property: Key(2)] string? Fingerprint = null,
-    [property: Key(3)] string? LogicalLocation = null,
-    [property: Key(4)] int? Line = null,
-    [property: Key(5)] int? Column = null
+    string RuleId,
+    string FilePath,
+    string? Fingerprint = null,
+    string? LogicalLocation = null,
+    int? Line = null,
+    int? Column = null
 );
 
-[MessagePackObject]
+[MessagePackObject(keyAsPropertyName: true)]
 public record RatchetReport(
-    [property: Key(0)] List<ResultKey> NewErrors,
-    [property: Key(1)] List<ResultKey> FixedErrors,
-    [property: Key(2)] List<ResultKey> RemainingErrors
+    List<ResultKey> NewErrors,
+    List<ResultKey> FixedErrors,
+    List<ResultKey> RemainingErrors
 );
 
 public class RatchetEngine
