@@ -18,6 +18,7 @@
         devShells.default = pkgs.mkShell {
           buildInputs = with pkgs; [
             dotnet-sdk_10
+            nodejs
           ];
 
           shellHook = ''
@@ -26,6 +27,8 @@
             export DOTNET_NOLOGO=1
             echo "SARIF Ratchet Development Environment"
             dotnet --version
+            node --version
+            npm --version
           '';
         };
       }
