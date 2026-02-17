@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using System.Text.Json;
+using Microsoft.CodeAnalysis.Sarif;
 using SarifRatchet.Core;
 
 namespace SarifRatchet.Tests;
@@ -118,6 +119,53 @@ public class IntegrationTests
         finally
         {
             if (File.Exists(v1Temp)) File.Delete(v1Temp);
+        }
+    }
+
+    [Test]
+    public async Task Cli_Sanitize_ZerosTimingProperties()
+    {
+        // Arrange
+        var original = GetSamplePath("ProjectV1", "ProjectV1.sarif");
+        var tempFile = Path.Combine(Path.GetTempPath(), Guid.NewGuid() + ".sarif");
+        File.Copy(original, tempFile);
+
+        try
+        {
+            // Act
+            var (exitCode, _) = await RunCli("sanitize", tempFile);
+
+            // Assert
+            await Assert.That(exitCode).IsEqualTo(0);
+
+            var log = SarifLog.Load(tempFile);
+            var run = log.Runs[0];
+
+            // Check run-level timing property
+            if (run.PropertyNames.Contains("analyzerExecutionTime"))
+            {
+                var value = run.GetProperty<string>("analyzerExecutionTime");
+                await Assert.That(value).IsEqualTo("0");
+            }
+
+            // Check rule-level timing properties
+            foreach (var rule in run.Tool.Driver.Rules)
+            {
+                if (rule.PropertyNames.Contains("executionTimeInSeconds"))
+                {
+                    var value = rule.GetProperty<string>("executionTimeInSeconds");
+                    await Assert.That(value).IsEqualTo("0");
+                }
+                if (rule.PropertyNames.Contains("executionTimeInPercentage"))
+                {
+                    var value = rule.GetProperty<string>("executionTimeInPercentage");
+                    await Assert.That(value).IsEqualTo("0");
+                }
+            }
+        }
+        finally
+        {
+            if (File.Exists(tempFile)) File.Delete(tempFile);
         }
     }
 }

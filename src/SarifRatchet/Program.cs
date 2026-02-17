@@ -269,8 +269,58 @@ public class SanitizeCommand : Command<SanitizeCommand.Settings>
             }
         }
 
+        SanitizeTimingProperties(log);
+
         Program.SaveSarif(log, settings.OutputPath ?? settings.Path);
         AnsiConsole.MarkupLine("[green]Sanitization complete.[/]");
         return 0;
+    }
+
+    private static readonly string[] TimingPropertyKeys =
+    [
+        "analyzerExecutionTime",
+        "executionTimeInSeconds",
+        "executionTimeInPercentage",
+    ];
+
+    private static void SanitizeTimingProperties(SarifLog log)
+    {
+        foreach (var run in log.Runs)
+        {
+            ZeroTimingProperties(run);
+
+            if (run.Tool?.Driver?.Rules != null)
+            {
+                foreach (var rule in run.Tool.Driver.Rules)
+                {
+                    ZeroTimingProperties(rule);
+                }
+            }
+
+            if (run.Tool?.Extensions != null)
+            {
+                foreach (var extension in run.Tool.Extensions)
+                {
+                    if (extension.Rules != null)
+                    {
+                        foreach (var rule in extension.Rules)
+                        {
+                            ZeroTimingProperties(rule);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    private static void ZeroTimingProperties(PropertyBagHolder holder)
+    {
+        foreach (var key in TimingPropertyKeys)
+        {
+            if (holder.PropertyNames.Contains(key))
+            {
+                holder.SetProperty(key, "0");
+            }
+        }
     }
 }

@@ -26,8 +26,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -47,8 +47,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -68,8 +68,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -89,8 +89,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -110,8 +110,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry"]
               }
             },
@@ -131,8 +131,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode","RuleRename"]
               }
             },
@@ -152,8 +152,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -173,8 +173,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -194,8 +194,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","CompilationEnd"]
               }
             },
@@ -213,8 +213,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1016",
               "properties": {
                 "category": "Design",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -234,8 +234,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","CompilationEnd"]
               }
             },
@@ -250,8 +250,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1018",
               "properties": {
                 "category": "Design",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -268,8 +268,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -289,8 +289,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry"]
               }
             },
@@ -310,8 +310,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -331,8 +331,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -352,8 +352,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -373,8 +373,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -394,8 +394,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -415,8 +415,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -436,8 +436,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -457,8 +457,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -478,8 +478,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -499,8 +499,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -518,8 +518,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1041",
               "properties": {
                 "category": "Design",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -539,8 +539,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -560,8 +560,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -581,8 +581,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry"]
               }
             },
@@ -602,8 +602,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -621,8 +621,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1050",
               "properties": {
                 "category": "Design",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -642,8 +642,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -660,8 +660,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -681,8 +681,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -702,8 +702,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -723,8 +723,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -744,8 +744,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -765,8 +765,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry"]
               }
             },
@@ -784,8 +784,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1061",
               "properties": {
                 "category": "Design",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -805,8 +805,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -826,8 +826,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -847,8 +847,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -868,8 +868,8 @@
                 "category": "Design",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -887,8 +887,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1066",
               "properties": {
                 "category": "Design",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -906,8 +906,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1067",
               "properties": {
                 "category": "Design",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -922,8 +922,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1068",
               "properties": {
                 "category": "Design",
-                "executionTimeInSeconds": "0.003",
-                "executionTimeInPercentage": "9",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -938,8 +938,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1069",
               "properties": {
                 "category": "Design",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -957,8 +957,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1070",
               "properties": {
                 "category": "Design",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -978,8 +978,8 @@
                 "category": "Documentation",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -999,8 +999,8 @@
                 "category": "Globalization",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1020,8 +1020,8 @@
                 "category": "Globalization",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1041,8 +1041,8 @@
                 "category": "Globalization",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1062,8 +1062,8 @@
                 "category": "Globalization",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1083,8 +1083,8 @@
                 "category": "Globalization",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1104,8 +1104,8 @@
                 "category": "Globalization",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1125,8 +1125,8 @@
                 "category": "Globalization",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1146,8 +1146,8 @@
                 "category": "Globalization",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1165,8 +1165,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1401",
               "properties": {
                 "category": "Interoperability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1181,8 +1181,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416",
               "properties": {
                 "category": "Interoperability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "2",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1197,8 +1197,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1417",
               "properties": {
                 "category": "Interoperability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1213,8 +1213,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1418",
               "properties": {
                 "category": "Interoperability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1232,8 +1232,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1419",
               "properties": {
                 "category": "Interoperability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1248,8 +1248,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1420",
               "properties": {
                 "category": "Interoperability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1267,8 +1267,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1421",
               "properties": {
                 "category": "Interoperability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1283,8 +1283,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1422",
               "properties": {
                 "category": "Interoperability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "2",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1304,8 +1304,8 @@
                 "category": "Maintainability",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","CompilationEnd"]
               }
             },
@@ -1325,8 +1325,8 @@
                 "category": "Maintainability",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","CompilationEnd"]
               }
             },
@@ -1346,8 +1346,8 @@
                 "category": "Maintainability",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","CompilationEnd"]
               }
             },
@@ -1367,8 +1367,8 @@
                 "category": "Maintainability",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","CompilationEnd"]
               }
             },
@@ -1386,8 +1386,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1507",
               "properties": {
                 "category": "Maintainability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1404,8 +1404,8 @@
                 "category": "Maintainability",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1425,8 +1425,8 @@
                 "category": "Maintainability",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","CompilationEnd"]
               }
             },
@@ -1444,8 +1444,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1510",
               "properties": {
                 "category": "Maintainability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1463,8 +1463,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1511",
               "properties": {
                 "category": "Maintainability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1482,8 +1482,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1512",
               "properties": {
                 "category": "Maintainability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1501,8 +1501,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1513",
               "properties": {
                 "category": "Maintainability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1520,8 +1520,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1514",
               "properties": {
                 "category": "Maintainability",
-                "executionTimeInSeconds": "0.001",
-                "executionTimeInPercentage": "2",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1541,8 +1541,8 @@
                 "category": "Maintainability",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1562,8 +1562,8 @@
                 "category": "Maintainability",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1583,8 +1583,8 @@
                 "category": "Naming",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1604,8 +1604,8 @@
                 "category": "Naming",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1625,8 +1625,8 @@
                 "category": "Naming",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1646,8 +1646,8 @@
                 "category": "Naming",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1667,8 +1667,8 @@
                 "category": "Naming",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1688,8 +1688,8 @@
                 "category": "Naming",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1709,8 +1709,8 @@
                 "category": "Naming",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1730,8 +1730,8 @@
                 "category": "Naming",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1751,8 +1751,8 @@
                 "category": "Naming",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1772,8 +1772,8 @@
                 "category": "Naming",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1793,8 +1793,8 @@
                 "category": "Naming",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1814,8 +1814,8 @@
                 "category": "Naming",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -1835,8 +1835,8 @@
                 "category": "Naming",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1854,8 +1854,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1727",
               "properties": {
                 "category": "Naming",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1875,8 +1875,8 @@
                 "category": "Performance",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1896,8 +1896,8 @@
                 "category": "Performance",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1915,8 +1915,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1806",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1936,8 +1936,8 @@
                 "category": "Performance",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1957,8 +1957,8 @@
                 "category": "Performance",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -1978,8 +1978,8 @@
                 "category": "Performance",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -1999,8 +1999,8 @@
                 "category": "Performance",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2020,8 +2020,8 @@
                 "category": "Performance",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2039,8 +2039,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1816",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2060,8 +2060,8 @@
                 "category": "Performance",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2081,8 +2081,8 @@
                 "category": "Performance",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2100,8 +2100,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1821",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2119,8 +2119,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2140,8 +2140,8 @@
                 "category": "Performance",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2159,8 +2159,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1824",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2175,8 +2175,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1825",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2194,8 +2194,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1826",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2213,8 +2213,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1827",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2232,8 +2232,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1828",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2251,8 +2251,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1829",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2270,8 +2270,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1830",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2286,8 +2286,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1831",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2305,8 +2305,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1832",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2324,8 +2324,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1833",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2343,8 +2343,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1834",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2362,8 +2362,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1835",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "2",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2381,8 +2381,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1836",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2400,8 +2400,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1837",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "2",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2421,8 +2421,8 @@
                 "category": "Performance",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2440,8 +2440,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1839",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "2",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2459,8 +2459,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1840",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "2",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2478,8 +2478,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1841",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2497,8 +2497,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1842",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2516,8 +2516,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1843",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2535,8 +2535,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1844",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2554,8 +2554,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1845",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2573,8 +2573,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1846",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2592,8 +2592,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1847",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2611,8 +2611,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1848",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2632,8 +2632,8 @@
                 "category": "Performance",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2651,8 +2651,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1850",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2669,8 +2669,8 @@
                 "category": "Performance",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2690,8 +2690,8 @@
                 "category": "Performance",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -2709,8 +2709,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1853",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "2",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2728,8 +2728,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1854",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2747,8 +2747,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1855",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2766,8 +2766,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1856",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2782,8 +2782,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1857",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2801,8 +2801,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1858",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2820,8 +2820,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1859",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2839,8 +2839,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1860",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2858,8 +2858,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1861",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2877,8 +2877,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1862",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2898,8 +2898,8 @@
                 "category": "Performance",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2917,8 +2917,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1864",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2936,8 +2936,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1865",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2955,8 +2955,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1866",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2974,8 +2974,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1867",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -2993,8 +2993,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1868",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "2",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3012,8 +3012,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1869",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3031,8 +3031,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1870",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.005",
-                "executionTimeInPercentage": "15",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3050,8 +3050,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1871",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3069,8 +3069,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1872",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3088,8 +3088,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3107,8 +3107,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1874",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3126,8 +3126,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1875",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3147,8 +3147,8 @@
                 "category": "Reliability",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3168,8 +3168,8 @@
                 "category": "Reliability",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3189,8 +3189,8 @@
                 "category": "Reliability",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3210,8 +3210,8 @@
                 "category": "Reliability",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3226,8 +3226,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2009",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3242,8 +3242,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2011",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3261,8 +3261,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2012",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3277,8 +3277,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2013",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3293,8 +3293,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2014",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3309,8 +3309,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2015",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3328,8 +3328,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2016",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3344,8 +3344,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2017",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3360,8 +3360,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2018",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3379,8 +3379,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2019",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3398,8 +3398,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2020",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3414,8 +3414,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2021",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3430,8 +3430,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2022",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "0.010",
-                "executionTimeInPercentage": "29",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3446,8 +3446,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2023",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3462,8 +3462,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2024",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3483,8 +3483,8 @@
                 "category": "Reliability",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3504,8 +3504,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3523,8 +3523,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2101",
               "properties": {
                 "category": "Globalization",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3544,8 +3544,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3565,8 +3565,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3578,8 +3578,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2200",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3599,8 +3599,8 @@
                 "category": "Usage",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3620,8 +3620,8 @@
                 "category": "Usage",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3639,8 +3639,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2208",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3658,8 +3658,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2211",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3679,8 +3679,8 @@
                 "category": "Usage",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3700,8 +3700,8 @@
                 "category": "Usage",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3721,8 +3721,8 @@
                 "category": "Usage",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3742,8 +3742,8 @@
                 "category": "Usage",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3763,8 +3763,8 @@
                 "category": "Usage",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3782,8 +3782,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2219",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3803,8 +3803,8 @@
                 "category": "Usage",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3824,8 +3824,8 @@
                 "category": "Usage",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3845,8 +3845,8 @@
                 "category": "Usage",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3864,8 +3864,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2231",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3885,8 +3885,8 @@
                 "category": "Usage",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3906,8 +3906,8 @@
                 "category": "Usage",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3927,8 +3927,8 @@
                 "category": "Usage",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3946,8 +3946,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2241",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "2",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3965,8 +3965,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2242",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -3986,8 +3986,8 @@
                 "category": "Usage",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["PortedFromFxCop","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4005,8 +4005,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2244",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4021,8 +4021,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2245",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4040,8 +4040,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2246",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4056,8 +4056,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2247",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4075,8 +4075,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2248",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4094,8 +4094,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2249",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4113,8 +4113,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2250",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4134,8 +4134,8 @@
                 "category": "Usage",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4153,8 +4153,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2252",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4172,8 +4172,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2253",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4191,8 +4191,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2254",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4207,8 +4207,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2255",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4223,8 +4223,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2256",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4239,8 +4239,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2257",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4255,8 +4255,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2258",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4271,8 +4271,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2259",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4287,8 +4287,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2260",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4303,8 +4303,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2261",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4322,8 +4322,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2262",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "2",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4341,8 +4341,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2263",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4357,8 +4357,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2264",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4373,8 +4373,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2265",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4394,8 +4394,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4412,8 +4412,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -4430,8 +4430,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -4448,8 +4448,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4469,8 +4469,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4487,8 +4487,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -4505,8 +4505,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -4523,8 +4523,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4541,8 +4541,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -4559,8 +4559,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -4580,8 +4580,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4598,8 +4598,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -4616,8 +4616,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -4634,8 +4634,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -4652,8 +4652,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -4670,8 +4670,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4688,8 +4688,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4706,8 +4706,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4724,8 +4724,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4742,8 +4742,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4760,8 +4760,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4778,8 +4778,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4796,8 +4796,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4814,8 +4814,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4832,8 +4832,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4850,8 +4850,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4868,8 +4868,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4886,8 +4886,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4904,8 +4904,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4922,8 +4922,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4940,8 +4940,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4958,8 +4958,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4976,8 +4976,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -4994,8 +4994,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5012,8 +5012,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5030,8 +5030,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5051,8 +5051,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5072,8 +5072,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5093,8 +5093,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5114,8 +5114,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5132,8 +5132,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5153,8 +5153,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5174,8 +5174,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5195,8 +5195,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5216,8 +5216,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5237,8 +5237,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -5258,8 +5258,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5279,8 +5279,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -5300,8 +5300,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5321,8 +5321,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5342,8 +5342,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5363,8 +5363,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5384,8 +5384,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -5405,8 +5405,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5426,8 +5426,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5447,8 +5447,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5468,8 +5468,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5489,8 +5489,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5510,8 +5510,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5528,8 +5528,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5549,8 +5549,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5570,8 +5570,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5591,8 +5591,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5609,8 +5609,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5630,8 +5630,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5651,8 +5651,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -5672,8 +5672,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -5693,8 +5693,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -5714,8 +5714,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -5735,8 +5735,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5756,8 +5756,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5774,8 +5774,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5795,8 +5795,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -5816,8 +5816,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -5837,8 +5837,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5858,8 +5858,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5879,8 +5879,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -5900,8 +5900,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5921,8 +5921,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5942,8 +5942,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -5963,8 +5963,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -5984,8 +5984,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -6005,8 +6005,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -6026,8 +6026,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -6047,8 +6047,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -6068,8 +6068,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -6089,8 +6089,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -6110,8 +6110,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode","CompilationEnd"]
               }
             },
@@ -6131,8 +6131,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Dataflow","Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -6152,8 +6152,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -6173,8 +6173,8 @@
                 "category": "Security",
                 "isEverSuppressed": "true",
                 "suppressionKinds": ["external"],
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Telemetry","EnabledRuleInAggressiveMode"]
               }
             },
@@ -6189,8 +6189,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/syslib-diagnostics/syslib1045",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1"
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0"
               }
             },
             {
@@ -6204,8 +6204,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/syslib-diagnostics/syslib1054",
               "properties": {
                 "category": "Interoperability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1"
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0"
               }
             },
             {
@@ -6222,8 +6222,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/syslib-diagnostics/syslib1055",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1"
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0"
               }
             },
             {
@@ -6240,8 +6240,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/syslib-diagnostics/syslib1056",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1"
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0"
               }
             },
             {
@@ -6258,8 +6258,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/syslib-diagnostics/syslib1057",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1"
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0"
               }
             },
             {
@@ -6276,8 +6276,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/syslib-diagnostics/syslib1058",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1"
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0"
               }
             },
             {
@@ -6294,8 +6294,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/syslib-diagnostics/syslib1060",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1"
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0"
               }
             },
             {
@@ -6312,8 +6312,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/syslib-diagnostics/syslib1061",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1"
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0"
               }
             },
             {
@@ -6330,8 +6330,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/syslib-diagnostics/syslib1090",
               "properties": {
                 "category": "ComInterfaceGenerator",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1"
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0"
               }
             },
             {
@@ -6348,8 +6348,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/syslib-diagnostics/syslib1096",
               "properties": {
                 "category": "Interoperability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1"
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0"
               }
             },
             {
@@ -6366,8 +6366,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/syslib-diagnostics/syslib1097",
               "properties": {
                 "category": "Interoperability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1"
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0"
               }
             },
             {
@@ -6381,8 +6381,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/syslib-diagnostics/syslib1098",
               "properties": {
                 "category": "Interoperability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1"
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0"
               }
             },
             {
@@ -6396,8 +6396,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/syslib-diagnostics/syslib1099",
               "properties": {
                 "category": "Interoperability",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1"
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0"
               }
             },
             {
@@ -6408,8 +6408,8 @@
               "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0168)",
               "properties": {
                 "category": "Compiler",
-                "executionTimeInSeconds": "<0.001",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0",
+                "executionTimeInPercentage": "0",
                 "tags": ["Compiler","Telemetry"]
               }
             }
@@ -6443,7 +6443,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "Program.cs"
+                  "uri": "tests/Samples/ProjectV2/Program.cs"
                 },
                 "region": {
                   "startLine": 7,
@@ -6461,7 +6461,7 @@
       ],
       "columnKind": "utf16CodeUnits",
       "properties": {
-        "analyzerExecutionTime": "0.035"
+        "analyzerExecutionTime": "0"
       }
     }
   ]
