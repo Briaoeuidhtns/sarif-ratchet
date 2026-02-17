@@ -83,7 +83,7 @@ public class RatchetEngine
         return new ResultKey(ruleId, filePath);
     }
 
-    private string GetRelativePath(Result result)
+    public string GetRelativePath(Result result)
     {
         var location = result.Locations?.FirstOrDefault();
         var uri = location?.PhysicalLocation?.ArtifactLocation?.Uri;

@@ -43,6 +43,13 @@ Update the baseline file to include only the errors that still exist in the new 
 sarif-ratchet update baseline.sarif new.sarif --root src/ --strip
 ```
 
+### Sanitize Baseline
+Remove absolute paths and local user information from a SARIF file before committing it to a repository.
+
+```bash
+sarif-ratchet sanitize baseline.sarif --root src/
+```
+
 ### GitHub Actions Integration
 Use the `--format github` option to emit workflow commands that show up as annotations in your PRs.
 

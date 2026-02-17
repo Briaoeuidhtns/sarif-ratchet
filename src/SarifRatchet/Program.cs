@@ -20,6 +20,8 @@ public class Program
                 .WithDescription("Compare a new SARIF file against a baseline");
             config.AddCommand<UpdateCommand>("update")
                 .WithDescription("Update a baseline SARIF file from a new SARIF file");
+            config.AddCommand<SanitizeCommand>("sanitize")
+                .WithDescription("Sanitize paths in a SARIF file to remove local user info");
         });
         return app.Run(args);
     }
@@ -186,5 +188,75 @@ public class UpdateCommand : Command<UpdateCommand.Settings>
         result.Taxa = null;
         result.WebRequest = null;
         result.WebResponse = null;
+    }
+}
+
+public class SanitizeCommand : Command<SanitizeCommand.Settings>
+{
+    public class Settings : CommandSettings
+    {
+        [CommandArgument(0, "<PATH>")]
+        public string Path { get; set; } = string.Empty;
+
+        [CommandOption("-r|--root")]
+        [Description("The root directory to trim paths relative to")]
+        public string? RootPath { get; set; }
+
+        [CommandOption("-o|--output")]
+        [Description("The output path (defaults to overwriting input)")]
+        public string? OutputPath { get; set; }
+    }
+
+    public override int Execute([NotNull] CommandContext context, [NotNull] Settings settings, CancellationToken cancellationToken)
+    {
+        var log = SarifLog.Load(settings.Path);
+        var engine = new RatchetEngine(Strictness.Exact, settings.RootPath);
+
+        foreach (var run in log.Runs)
+        {
+            if (run.Results != null)
+            {
+                foreach (var result in run.Results)
+                {
+                    if (result.Locations != null)
+                    {
+                        foreach (var loc in result.Locations)
+                        {
+                            if (loc.PhysicalLocation?.ArtifactLocation != null)
+                            {
+                                var relativePath = engine.GetRelativePath(result);
+                                loc.PhysicalLocation.ArtifactLocation.Uri = new Uri(relativePath, UriKind.RelativeOrAbsolute);
+                            }
+                        }
+                    }
+                }
+            }
+
+            if (run.Artifacts != null)
+            {
+                foreach (var artifact in run.Artifacts)
+                {
+                    if (artifact.Location != null)
+                    {
+                        var path = artifact.Location.Uri.OriginalString;
+                        if (settings.RootPath != null)
+                        {
+                            string absoluteRoot = System.IO.Path.GetFullPath(settings.RootPath);
+                            string absolutePath = System.IO.Path.IsPathRooted(path) ? path : System.IO.Path.GetFullPath(path, absoluteRoot);
+                            
+                            if (absolutePath.StartsWith(absoluteRoot, StringComparison.OrdinalIgnoreCase))
+                            {
+                                path = System.IO.Path.GetRelativePath(absoluteRoot, absolutePath).Replace('\\', '/');
+                            }
+                        }
+                        artifact.Location.Uri = new Uri(path, UriKind.RelativeOrAbsolute);
+                    }
+                }
+            }
+        }
+
+        log.Save(settings.OutputPath ?? settings.Path);
+        AnsiConsole.MarkupLine("[green]Sanitization complete.[/]");
+        return 0;
     }
 }
