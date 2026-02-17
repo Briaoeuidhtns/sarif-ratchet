@@ -1,5 +1,14 @@
 <Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SarifRatchet/SarifRatchet.csproj" />
+  </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/SarifRatchet.Tests/SarifRatchet.Tests.csproj" />
+  </Folder>
+  <Folder Name="/tests/Samples/">
+    <Project Path="tests/Samples/ProjectV1/ProjectV1.csproj" />
+    <Project Path="tests/Samples/ProjectV2/ProjectV2.csproj" />
+    <Project Path="tests/Samples/ProjectV3/ProjectV3.csproj" />
+    <Project Path="tests/Samples/SampleProject/SampleProject.csproj" />
   </Folder>
 </Solution>
