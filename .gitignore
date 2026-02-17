@@ -1,0 +1,15 @@
+# Standard .NET gitignore
+[Bb]in/
+[Oo]bj/
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+.vscode/
+
+# Build artifacts
+publish/
+
+# OS files
+.DS_Store
+Thumbs.db

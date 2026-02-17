@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/tests/">
+    <Project Path="tests/SarifRatchet.Tests/SarifRatchet.Tests.csproj" />
+  </Folder>
+</Solution>

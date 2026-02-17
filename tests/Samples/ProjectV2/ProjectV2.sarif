@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Microsoft (R) Visual C# Compiler",
+          "version": "5.0.0.0",
+          "fileVersion": "5.0.0-2.26055.108 (1def04f3)",
+          "semanticVersion": "5.0.0",
+          "language": "en-US"
+        }
+      },
+      "results": [
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": {
+            "text": "The variable 'x' is declared but never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/brian/Projects/sarif-ratchet/tests/Samples/ProjectV2/Program.cs"
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 13,
+                  "endLine": 7,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        }
+      ],
+      "rules": {
+        "CS0168": {
+          "id": "CS0168",
+          "shortDescription": "Variable is declared but never used",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0168)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
