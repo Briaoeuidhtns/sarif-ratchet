@@ -48,6 +48,7 @@
           buildInputs = with pkgs; [
             dotnet-sdk_10
             nodejs
+            csharp-ls
           ];
 
           shellHook = ''
