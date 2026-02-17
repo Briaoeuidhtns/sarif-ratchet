@@ -13,8 +13,37 @@
           inherit system;
           config.allowUnfree = true;
         };
+
+        dotnet-sdk = pkgs.dotnet-sdk_10;
+        dotnet-runtime = pkgs.dotnet-runtime_10;
+
+        sarif-ratchet = pkgs.buildDotnetModule {
+          pname = "sarif-ratchet";
+          version = "1.0.0";
+
+          src = ./.;
+
+          projectFile = "src/SarifRatchet/SarifRatchet.csproj";
+          nugetDeps = ./deps.json;
+
+          dotnet-sdk = dotnet-sdk;
+          dotnet-runtime = dotnet-runtime;
+
+          executables = [ "SarifRatchet" ];
+
+          meta = with pkgs.lib; {
+            description = "A CLI tool to maintain a SARIF error ratchet";
+            license = licenses.mit;
+          };
+        };
       in
       {
+        packages.default = sarif-ratchet;
+        apps.default = {
+          type = "app";
+          program = "${sarif-ratchet}/bin/SarifRatchet";
+        };
+
         devShells.default = pkgs.mkShell {
           buildInputs = with pkgs; [
             dotnet-sdk_10

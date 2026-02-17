@@ -1,0 +1,67 @@
+[
+  {
+    "pname": "CsvHelper",
+    "version": "15.0.5",
+    "hash": "sha256-qj6KYf2BOTnP1bndjFSsN0tu5A4hX/CpGxa+bjVcyAc="
+  },
+  {
+    "pname": "MessagePack",
+    "version": "3.1.4",
+    "hash": "sha256-oju/hX+vwZFqSa9ORSa58ToM3cE7fF8x34i2oNLGNVo="
+  },
+  {
+    "pname": "MessagePack.Annotations",
+    "version": "3.1.4",
+    "hash": "sha256-YZGKa20siabb4VIQri5dMuFwnDxX19Htf51nGrIPx28="
+  },
+  {
+    "pname": "MessagePackAnalyzer",
+    "version": "3.1.4",
+    "hash": "sha256-qc+mzydfbZ/0O4j7pPDjp+x8aQ4KYqMeCDRIPhb1oe8="
+  },
+  {
+    "pname": "Microsoft.Diagnostics.Tracing.EventRegister",
+    "version": "1.1.28",
+    "hash": "sha256-A/gOXo0PWS8+L7OyJz1s8zDxGU39SFuvxrHZnqSLANI="
+  },
+  {
+    "pname": "Microsoft.Diagnostics.Tracing.TraceEvent",
+    "version": "3.1.3",
+    "hash": "sha256-MVKR1ZRpUMNdRAPuXh9cp5T/hG7wu8R9wUr9bey8V60="
+  },
+  {
+    "pname": "Microsoft.NET.StringTools",
+    "version": "17.11.4",
+    "hash": "sha256-lWfzY35WQ+iKS9TpuztDTljgF9CIORhFhFEm0p1dVBE="
+  },
+  {
+    "pname": "Newtonsoft.Json",
+    "version": "13.0.3",
+    "hash": "sha256-hy/BieY4qxBWVVsDqqOPaLy1QobiIapkbrESm6v2PHc="
+  },
+  {
+    "pname": "Sarif.Converters",
+    "version": "4.6.0",
+    "hash": "sha256-CJmUzpC2JhpZm36eweP4qLA9OBspsRHvLxM92IiuaQ0="
+  },
+  {
+    "pname": "Sarif.Sdk",
+    "version": "4.6.0",
+    "hash": "sha256-oLlYNuU4nz6FbumVIVZcjqwQAQkxiA8cnt2FfLzsX6g="
+  },
+  {
+    "pname": "Spectre.Console",
+    "version": "0.53.1",
+    "hash": "sha256-uj/DD9y9MFWh5ugfQ1nTpbDP5xj55Sa8KX06B8CluMc="
+  },
+  {
+    "pname": "Spectre.Console.Cli",
+    "version": "0.53.1",
+    "hash": "sha256-WN79g+F9jRsqXAwVFLYS/lfaQish2yFwL40GB/PpdTo="
+  },
+  {
+    "pname": "YamlDotNet",
+    "version": "11.2.0",
+    "hash": "sha256-v1fC7HWZCfP2FatI17YWuK8VNGlc6+ReG+5ww3Vyek0="
+  }
+]

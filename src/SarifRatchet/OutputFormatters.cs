@@ -60,3 +60,23 @@ public class MessagePackOutputFormatter : IOutputFormatter
         stdout.Write(bytes, 0, bytes.Length);
     }
 }
+
+public class GitHubOutputFormatter : IOutputFormatter
+{
+    public void Format(RatchetReport report, bool warnRemoved)
+    {
+        foreach (var error in report.NewErrors)
+        {
+            // ::error file={name},line={line},col={col},title={title}::{message}
+            System.Console.WriteLine($"::error file={error.FilePath},line={error.Line},col={error.Column},title={error.RuleId}::New static analysis error found: {error.RuleId}");
+        }
+
+        if (warnRemoved)
+        {
+            foreach (var error in report.FixedErrors)
+            {
+                System.Console.WriteLine($"::warning file={error.FilePath},line={error.Line},col={error.Column},title={error.RuleId}::Fixed error was removed but --warn-removed is set: {error.RuleId}");
+            }
+        }
+    }
+}

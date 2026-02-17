@@ -49,7 +49,8 @@ public enum OutputFormat
 {
     Spectre,
     Json,
-    MessagePack
+    MessagePack,
+    GitHub
 }
 
 public class CompareCommand : Command<CompareCommand.Settings>
@@ -89,6 +90,7 @@ public class CompareCommand : Command<CompareCommand.Settings>
             OutputFormat.Json => new JsonOutputFormatter(),
             OutputFormat.Spectre => new SpectreOutputFormatter(),
             OutputFormat.MessagePack => new MessagePackOutputFormatter(),
+            OutputFormat.GitHub => new GitHubOutputFormatter(),
             _ => throw new ArgumentOutOfRangeException()
         };
 

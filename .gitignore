@@ -9,6 +9,12 @@
 
 # Build artifacts
 publish/
+/result
+/result-*
+
+# Nix specific
+.direnv/
+.envrc
 
 # OS files
 .DS_Store
