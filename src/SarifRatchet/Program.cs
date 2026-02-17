@@ -77,10 +77,12 @@ public class CompareCommand : Command<CompareCommand.Settings>
         // In the future, we could offer a flag to compare runs individually (e.g. by tool name).
         var baselineKeys = engine.GetResultKeys(baseline);
         var currentKeys = engine.GetResultKeys(current);
+        var comparer = engine.GetComparer();
 
-        var newErrors = currentKeys.Except(baselineKeys).ToList();
-        var fixedErrors = baselineKeys.Except(currentKeys).ToList();
-        var remainingErrors = currentKeys.Intersect(baselineKeys).ToList();
+        var newErrors = currentKeys.Except(baselineKeys, comparer).ToList();
+        var fixedErrors = baselineKeys.Except(currentKeys, comparer).ToList();
+        var remainingErrors = currentKeys.Intersect(baselineKeys, comparer).ToList();
+
         
         // If the current file has more runs than baseline, we might want to alert the user
         // but for now, we treat the entire log as a single unit of analysis.

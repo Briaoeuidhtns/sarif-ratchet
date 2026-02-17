@@ -16,22 +16,31 @@ public class SpectreOutputFormatter : IOutputFormatter
         var table = new Table();
         table.AddColumn("Status");
         table.AddColumn("Rule ID");
+        table.AddColumn("Message");
         table.AddColumn("File");
         table.AddColumn("Location");
 
         foreach (var error in report.NewErrors)
         {
-            table.AddRow("[red]New[/]", error.RuleId, error.FilePath, $"{error.Line}:{error.Column}");
-            if (!string.IsNullOrEmpty(error.Message))
-            {
-                table.AddRow("", "", $"[grey]{error.Message}[/]", "");
-            }
+            table.AddRow(
+                "[red]New[/]", 
+                error.RuleId, 
+                error.Message ?? "-", 
+                error.FilePath, 
+                $"{error.Line}:{error.Column}"
+            );
         }
 
         foreach (var error in report.FixedErrors)
         {
             var color = warnRemoved ? "yellow" : "green";
-            table.AddRow($"[{color}]Fixed[/]", error.RuleId, error.FilePath, $"{error.Line}:{error.Column}");
+            table.AddRow(
+                $"[{color}]Fixed[/]", 
+                error.RuleId, 
+                error.Message ?? "-", 
+                error.FilePath, 
+                $"{error.Line}:{error.Column}"
+            );
         }
 
         AnsiConsole.Write(table);
