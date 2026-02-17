@@ -1,0 +1,20 @@
+{
+  "name": "sarif-ratchet",
+  "version": "1.0.0",
+  "description": "A CLI tool to maintain a SARIF error ratchet.",
+  "main": "index.js",
+  "bin": {
+    "sarif-ratchet": "bin/index.js"
+  },
+  "scripts": {
+    "prepublishOnly": "dotnet publish src/SarifRatchet/SarifRatchet.csproj -c Release -r linux-x64 --self-contained true -o bin/linux-x64 && dotnet publish src/SarifRatchet/SarifRatchet.csproj -c Release -r win-x64 --self-contained true -o bin/win-x64 && dotnet publish src/SarifRatchet/SarifRatchet.csproj -c Release -r osx-x64 --self-contained true -o bin/osx-x64"
+  },
+  "keywords": [
+    "sarif",
+    "ratchet",
+    "static-analysis",
+    "ci"
+  ],
+  "author": "opencode",
+  "license": "MIT"
+}
