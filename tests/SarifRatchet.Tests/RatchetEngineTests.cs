@@ -14,9 +14,10 @@ public class RatchetEngineTests
         var engine = new RatchetEngine(Strictness.Exact);
 
         // Act
+        var comparer = engine.GetComparer();
         var baselineKeys = engine.GetResultKeys(baseline);
         var currentKeys = engine.GetResultKeys(current);
-        var newErrors = currentKeys.Except(baselineKeys).ToList();
+        var newErrors = currentKeys.Except(baselineKeys, comparer).ToList();
 
         // Assert
         await Assert.That(newErrors).Count().IsEqualTo(1);
@@ -32,9 +33,10 @@ public class RatchetEngineTests
         var engine = new RatchetEngine(Strictness.Exact);
 
         // Act
+        var comparer = engine.GetComparer();
         var baselineKeys = engine.GetResultKeys(baseline);
         var currentKeys = engine.GetResultKeys(current);
-        var fixedErrors = baselineKeys.Except(currentKeys).ToList();
+        var fixedErrors = baselineKeys.Except(currentKeys, comparer).ToList();
 
         // Assert
         await Assert.That(fixedErrors).Count().IsEqualTo(1);
@@ -50,9 +52,10 @@ public class RatchetEngineTests
         var engine = new RatchetEngine(Strictness.Exact);
 
         // Act
+        var comparer = engine.GetComparer();
         var baselineKeys = engine.GetResultKeys(baseline);
         var currentKeys = engine.GetResultKeys(current);
-        var newErrors = currentKeys.Except(baselineKeys).ToList();
+        var newErrors = currentKeys.Except(baselineKeys, comparer).ToList();
 
         // Assert
         await Assert.That(newErrors).Count().IsEqualTo(1);
@@ -67,9 +70,10 @@ public class RatchetEngineTests
         var engine = new RatchetEngine(Strictness.Loose);
 
         // Act
+        var comparer = engine.GetComparer();
         var baselineKeys = engine.GetResultKeys(baseline);
         var currentKeys = engine.GetResultKeys(current);
-        var newErrors = currentKeys.Except(baselineKeys).ToList();
+        var newErrors = currentKeys.Except(baselineKeys, comparer).ToList();
 
         // Assert
         await Assert.That(newErrors).Count().IsEqualTo(0);

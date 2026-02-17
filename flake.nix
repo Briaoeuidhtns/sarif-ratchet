@@ -29,7 +29,7 @@
           dotnet-sdk = dotnet-sdk;
           dotnet-runtime = dotnet-runtime;
 
-          executables = [ "SarifRatchet" ];
+          executables = [ "sarif-ratchet" ];
 
           meta = with pkgs.lib; {
             description = "A CLI tool to maintain a SARIF error ratchet";
@@ -41,7 +41,7 @@
         packages.default = sarif-ratchet;
         apps.default = {
           type = "app";
-          program = "${sarif-ratchet}/bin/SarifRatchet";
+          program = "${sarif-ratchet}/bin/sarif-ratchet";
         };
 
         devShells.default = pkgs.mkShell {
