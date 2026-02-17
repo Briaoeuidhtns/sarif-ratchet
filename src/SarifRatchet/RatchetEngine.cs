@@ -17,6 +17,7 @@ public enum Strictness
 public record ResultKey(
     string RuleId,
     string FilePath,
+    string? Message = null,
     string? Fingerprint = null,
     string? LogicalLocation = null,
     int? Line = null,
@@ -49,20 +50,27 @@ public class RatchetEngine
             if (run.Results == null) continue;
             foreach (var result in run.Results)
             {
-                keys.Add(CreateKey(result));
+                keys.Add(CreateKey(result, run));
             }
         }
         return keys;
     }
 
-    public ResultKey CreateKey(Result result)
+    public ResultKey CreateKey(Result result, Run? run = null)
     {
         string ruleId = result.RuleId;
         string filePath = GetRelativePath(result);
+        string? message = null;
+
+        if (run != null)
+        {
+            var rule = result.GetRule(run);
+            message = result.GetMessageText(rule);
+        }
 
         if (_strictness == Strictness.Exact)
         {
-            return new ResultKey(ruleId, filePath, Line: GetLine(result), Column: GetColumn(result));
+            return new ResultKey(ruleId, filePath, message, Line: GetLine(result), Column: GetColumn(result));
         }
 
         if (_strictness == Strictness.Fingerprint || _strictness == Strictness.Logical)
@@ -70,17 +78,17 @@ public class RatchetEngine
             string? fingerprint = GetFingerprint(result);
             if (fingerprint != null && _strictness == Strictness.Fingerprint)
             {
-                return new ResultKey(ruleId, filePath, Fingerprint: fingerprint);
+                return new ResultKey(ruleId, filePath, message, Fingerprint: fingerprint);
             }
 
             string? logical = GetLogicalLocation(result);
             if (logical != null)
             {
-                return new ResultKey(ruleId, filePath, LogicalLocation: logical);
+                return new ResultKey(ruleId, filePath, message, LogicalLocation: logical);
             }
         }
 
-        return new ResultKey(ruleId, filePath);
+        return new ResultKey(ruleId, filePath, message);
     }
 
     public string GetRelativePath(Result result)

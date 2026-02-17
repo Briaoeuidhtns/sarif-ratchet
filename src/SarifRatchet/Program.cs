@@ -134,7 +134,7 @@ public class UpdateCommand : Command<UpdateCommand.Settings>
             {
                 foreach (var result in run.Results)
                 {
-                    if (currentKeys.Contains(engine.CreateKey(result)))
+                    if (currentKeys.Contains(engine.CreateKey(result, run)))
                     {
                         if (settings.Strip)
                         {

@@ -22,6 +22,10 @@ public class SpectreOutputFormatter : IOutputFormatter
         foreach (var error in report.NewErrors)
         {
             table.AddRow("[red]New[/]", error.RuleId, error.FilePath, $"{error.Line}:{error.Column}");
+            if (!string.IsNullOrEmpty(error.Message))
+            {
+                table.AddRow("", "", $"[grey]{error.Message}[/]", "");
+            }
         }
 
         foreach (var error in report.FixedErrors)
@@ -68,7 +72,8 @@ public class GitHubOutputFormatter : IOutputFormatter
         foreach (var error in report.NewErrors)
         {
             // ::error file={name},line={line},col={col},title={title}::{message}
-            System.Console.WriteLine($"::error file={error.FilePath},line={error.Line},col={error.Column},title={error.RuleId}::New static analysis error found: {error.RuleId}");
+            var message = error.Message ?? $"New static analysis error found: {error.RuleId}";
+            System.Console.WriteLine($"::error file={error.FilePath},line={error.Line},col={error.Column},title={error.RuleId}::{message}");
         }
 
         if (warnRemoved)
