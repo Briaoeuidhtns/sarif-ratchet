@@ -14,7 +14,7 @@
 
 ### Using Nix
 ```bash
-nix run github:brian/sarif-ratchet -- --help
+nix run github:briaoeuidhtns/sarif-ratchet -- --help
 ```
 
 ### Using npm
