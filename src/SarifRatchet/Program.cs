@@ -6,6 +6,7 @@ using SarifRatchet.Core;
 using Spectre.Console;
 using Spectre.Console.Cli;
 using System.Text.Json;
+using Newtonsoft.Json;
 
 namespace SarifRatchet.Cli;
 
@@ -24,6 +25,17 @@ public class Program
                 .WithDescription("Sanitize paths in a SARIF file to remove local user info");
         });
         return app.Run(args);
+    }
+
+    public static void SaveSarif(SarifLog log, string path)
+    {
+        var settings = new JsonSerializerSettings
+        {
+            Formatting = Newtonsoft.Json.Formatting.Indented,
+            NullValueHandling = NullValueHandling.Ignore
+        };
+        string json = JsonConvert.SerializeObject(log, settings);
+        System.IO.File.WriteAllText(path, json);
     }
 }
 
@@ -159,7 +171,7 @@ public class UpdateCommand : Command<UpdateCommand.Settings>
             }
         }
 
-        baseline.Save(settings.BaselinePath);
+        Program.SaveSarif(baseline, settings.BaselinePath);
         
         AnsiConsole.MarkupLine("[green]Baseline updated successfully.[/]");
         return 0;
@@ -257,7 +269,7 @@ public class SanitizeCommand : Command<SanitizeCommand.Settings>
             }
         }
 
-        log.Save(settings.OutputPath ?? settings.Path);
+        Program.SaveSarif(log, settings.OutputPath ?? settings.Path);
         AnsiConsole.MarkupLine("[green]Sanitization complete.[/]");
         return 0;
     }
