@@ -12,10 +12,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # deep clone so nbgv can compute version height
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: 10.0.x
+          dotnet-version: |
+            8.0.x
+            9.0.x
+            10.0.x
       - name: Restore
         run: dotnet restore
       - name: Build
@@ -39,16 +44,37 @@ jobs:
     if: startsWith(github.ref, 'refs/tags/v')
     needs: [test, nix-build]
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write # required for NuGet trusted publishing (OIDC)
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # deep clone so nbgv can compute version height
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: 10.0.x
-      - name: Publish NuGet
+          dotnet-version: |
+            8.0.x
+            9.0.x
+            10.0.x
+      - name: Verify version matches tag
         run: |
-          dotnet pack src/SarifRatchet/SarifRatchet.csproj -c Release -o out
-          dotnet nuget push out/*.nupkg -s https://api.nuget.org/v3/index.json -k ${{ secrets.NUGET_API_KEY }}
+          dotnet tool install -g nbgv
+          NBGV_VERSION="v$(nbgv get-version --variable NuGetPackageVersion)"
+          if [ "$NBGV_VERSION" != "${{ github.ref_name }}" ]; then
+            echo "::error::Tag ${{ github.ref_name }} does not match NBGV version $NBGV_VERSION"
+            exit 1
+          fi
+      - name: Pack NuGet
+        run: dotnet pack src/SarifRatchet/SarifRatchet.csproj -c Release /p:PublicRelease=true -o out
+      - name: NuGet login (trusted publishing)
+        uses: NuGet/login@v1
+        id: nuget-login
+        with:
+          user: ${{ secrets.NUGET_USER }}
+      - name: Publish NuGet
+        run: dotnet nuget push out/*.nupkg -s https://api.nuget.org/v3/index.json -k ${{ steps.nuget-login.outputs.NUGET_API_KEY }}
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -63,3 +89,7 @@ jobs:
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Create GitHub Release
+        run: gh release create "${{ github.ref_name }}" --generate-notes
+        env:
+          GH_TOKEN: ${{ github.token }}

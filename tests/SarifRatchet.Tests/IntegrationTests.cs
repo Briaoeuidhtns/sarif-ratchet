@@ -20,7 +20,7 @@ public class IntegrationTests
             StartInfo = new ProcessStartInfo
             {
                 FileName = "dotnet",
-                Arguments = $"run --project {GetProjectPath()} -- " + string.Join(" ", args),
+                Arguments = $"run --project {GetProjectPath()} --framework net10.0 -- " + string.Join(" ", args),
                 RedirectStandardOutput = true,
                 RedirectStandardError = true,
                 UseShellExecute = false,

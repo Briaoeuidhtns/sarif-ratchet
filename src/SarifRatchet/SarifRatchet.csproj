@@ -9,7 +9,6 @@
     <ToolCommandName>sarif-ratchet</ToolCommandName>
     <PackageId>SarifRatchet</PackageId>
     <AssemblyName>sarif-ratchet</AssemblyName>
-    <Version>1.0.0</Version>
     <Authors>Briaoeuidhtns</Authors>
     <Description>A CLI tool to maintain a SARIF error ratchet.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

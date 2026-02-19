@@ -29,6 +29,11 @@
           dotnet-sdk = dotnet-sdk;
           dotnet-runtime = dotnet-runtime;
 
+          # Only build net10.0 for Nix; the full multitarget build is for NuGet
+          dotnetRestoreFlags = [ "/p:TargetFrameworks=net10.0" ];
+          dotnetBuildFlags = [ "-f" "net10.0" ];
+          dotnetInstallFlags = [ "-f" "net10.0" ];
+
           executables = [ "sarif-ratchet" ];
 
           meta = with pkgs.lib; {
