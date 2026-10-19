@@ -90,4 +90,6 @@ This wraps the package's nixpkgs `fetch-deps` passthru script. `deps.json` descr
 
 Nix builds from a source archive without `.git`: it passes `SarifRatchetSourceVersion`, derived from the `version.json` major/minor plus `.0` and the available source revision. This disables NBGV build assets (but keeps its pinned dependency in the restore closure) and supplies archive-safe SDK version properties. It is not the Git-height-derived NuGet/npm release version.
 
+The Nix patch phase removes `.config/dotnet-tools.json` from its build source so nixpkgs does not automatically restore the development-only `nbgv` CLI. That tool is a different NuGet package from `Nerdbank.GitVersioning`; it is not needed for the archive build. The checkout retains the manifest for local development and NuGet/npm artifact versioning.
+
 MessagePack is pinned to stable 3.1.12, beyond the affected 3.x ranges in [GHSA-qhrr-8q5h-9q3h](https://github.com/advisories/GHSA-qhrr-8q5h-9q3h) (fixed in 3.1.9) and the [MessagePack NuGet advisories](https://github.com/advisories?query=ecosystem%3Anuget+MessagePack).

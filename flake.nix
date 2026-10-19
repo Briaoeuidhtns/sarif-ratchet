@@ -24,6 +24,11 @@
           version = sourceVersion;
 
           src = ./.;
+          # Nix uses sourceVersion, not the development-only nbgv CLI.
+          # The dotnet configure hook automatically restores any local tool manifest.
+          postPatch = ''
+            rm .config/dotnet-tools.json
+          '';
 
           projectFile = "src/SarifRatchet/SarifRatchet.csproj";
           nugetDeps = ./deps.json;
