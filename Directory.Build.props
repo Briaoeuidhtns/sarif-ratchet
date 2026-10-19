@@ -1,5 +1,12 @@
 <Project>
+  <PropertyGroup Condition="'$(SarifRatchetSourceVersion)' != ''">
+    <!-- Source archives (including Nix) have no Git history for NBGV. -->
+    <Version>$(SarifRatchetSourceVersion)</Version>
+    <PackageVersion>$(SarifRatchetSourceVersion)</PackageVersion>
+  </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Nerdbank.GitVersioning" Version="3.9.50" PrivateAssets="all" />
+    <PackageReference Include="Nerdbank.GitVersioning" Version="3.9.50" PrivateAssets="all">
+      <ExcludeAssets Condition="'$(SarifRatchetSourceVersion)' != ''">all</ExcludeAssets>
+    </PackageReference>
   </ItemGroup>
 </Project>

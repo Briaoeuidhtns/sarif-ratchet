@@ -16,10 +16,12 @@
 
         dotnet-sdk = pkgs.dotnet-sdk_10;
         dotnet-runtime = pkgs.dotnet-runtime_10;
+        sourceVersion = "${(builtins.fromJSON (builtins.readFile ./version.json)).version}.0"
+          + pkgs.lib.optionalString (self ? shortRev) "+${self.shortRev}";
 
         sarif-ratchet = pkgs.buildDotnetModule {
           pname = "sarif-ratchet";
-          version = "1.0.0";
+          version = sourceVersion;
 
           src = ./.;
 
@@ -30,6 +32,7 @@
           dotnet-runtime = dotnet-runtime;
 
           # Only build net10.0 for Nix; the full multitarget build is for NuGet
+          dotnetFlags = [ "-p:SarifRatchetSourceVersion=${sourceVersion}" ];
           dotnetRestoreFlags = [ "/p:TargetFrameworks=net10.0" ];
           dotnetBuildFlags = [ "-f" "net10.0" ];
           dotnetInstallFlags = [ "-f" "net10.0" ];
@@ -47,6 +50,10 @@
         apps.default = {
           type = "app";
           program = "${sarif-ratchet}/bin/sarif-ratchet";
+        };
+        apps.fetch-deps = {
+          type = "app";
+          program = "${sarif-ratchet.fetch-deps}";
         };
 
         devShells.default = pkgs.mkShell {

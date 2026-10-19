@@ -1,11 +1,9 @@
 using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using Microsoft.CodeAnalysis.Sarif;
-using Microsoft.CodeAnalysis.Sarif.Converters;
 using SarifRatchet.Core;
 using Spectre.Console;
 using Spectre.Console.Cli;
-using System.Text.Json;
 using Newtonsoft.Json;
 
 namespace SarifRatchet.Cli;
@@ -85,21 +83,7 @@ public class CompareCommand : Command<CompareCommand.Settings>
         
         var engine = new RatchetEngine(settings.Strictness, settings.RootPath);
         
-        // Multi-run logic: We flatten all results from all runs for comparison.
-        // In the future, we could offer a flag to compare runs individually (e.g. by tool name).
-        var baselineKeys = engine.GetResultKeys(baseline);
-        var currentKeys = engine.GetResultKeys(current);
-        var comparer = engine.GetComparer();
-
-        var newErrors = currentKeys.Except(baselineKeys, comparer).ToList();
-        var fixedErrors = baselineKeys.Except(currentKeys, comparer).ToList();
-        var remainingErrors = currentKeys.Intersect(baselineKeys, comparer).ToList();
-
-        
-        // If the current file has more runs than baseline, we might want to alert the user
-        // but for now, we treat the entire log as a single unit of analysis.
-
-        var report = new RatchetReport(newErrors, fixedErrors, remainingErrors);
+        var report = engine.Compare(baseline, current);
         
         IOutputFormatter formatter = settings.Format switch
         {
@@ -112,8 +96,8 @@ public class CompareCommand : Command<CompareCommand.Settings>
 
         formatter.Format(report, settings.WarnRemoved);
 
-        if (newErrors.Count > 0) return 1;
-        if (settings.CheckMode && fixedErrors.Count > 0) return 1;
+        if (report.NewErrors.Count > 0) return 1;
+        if (settings.CheckMode && report.FixedErrors.Count > 0) return 1;
 
         return 0;
     }
@@ -139,35 +123,33 @@ public class UpdateCommand : Command<UpdateCommand.Settings>
         var current = SarifLog.Load(settings.NewPath);
         
         var engine = new RatchetEngine(settings.Strictness, settings.RootPath);
-        var currentKeys = engine.GetResultKeys(current);
+        engine.RetainBaselineResults(baseline, current);
 
-        foreach (var run in baseline.Runs)
+        if (settings.Strip)
         {
-            var resultsToKeep = new List<Result>();
-            if (run.Results != null)
+            foreach (var run in baseline.Runs)
             {
-                foreach (var result in run.Results)
+                foreach (var result in run.Results ?? [])
                 {
-                    if (currentKeys.Contains(engine.CreateKey(result, run)))
+                    StripResult(result);
+                }
+
+                // Keep reference tables: retained findings can address them by index.
+                if (run.Artifacts != null)
+                {
+                    foreach (var artifact in run.Artifacts)
                     {
-                        if (settings.Strip)
-                        {
-                            StripResult(result);
-                        }
-                        resultsToKeep.Add(result);
+                        artifact.Contents = null;
                     }
                 }
-            }
-            run.Results = resultsToKeep;
-
-            if (settings.Strip)
-            {
-                run.Artifacts = null;
-                run.Graphs = null;
-                run.LogicalLocations = null;
-                run.ThreadFlowLocations = null;
-                run.Taxonomies = null;
-                run.Invocations = null;
+                if (run.Invocations != null)
+                {
+                    foreach (var invocation in run.Invocations)
+                    {
+                        invocation.ToolExecutionNotifications = null;
+                        invocation.ToolConfigurationNotifications = null;
+                    }
+                }
             }
         }
 
@@ -177,18 +159,18 @@ public class UpdateCommand : Command<UpdateCommand.Settings>
         return 0;
     }
 
-    private void StripResult(Result result)
+    private static void StripResult(Result result)
     {
-        // Keep only essential info for identification and a basic message
-        // result.Message = result.Message; // Keep message
-        
         if (result.Locations != null)
         {
             foreach (var loc in result.Locations)
             {
                 if (loc.PhysicalLocation != null)
                 {
-                    loc.PhysicalLocation.Region.Snippet = null;
+                    if (loc.PhysicalLocation.Region != null)
+                    {
+                        loc.PhysicalLocation.Region.Snippet = null;
+                    }
                     loc.PhysicalLocation.ContextRegion = null;
                 }
             }
@@ -224,103 +206,11 @@ public class SanitizeCommand : Command<SanitizeCommand.Settings>
     public override int Execute([NotNull] CommandContext context, [NotNull] Settings settings, CancellationToken cancellationToken)
     {
         var log = SarifLog.Load(settings.Path);
-        var engine = new RatchetEngine(Strictness.Exact, settings.RootPath);
-
-        foreach (var run in log.Runs)
-        {
-            if (run.Results != null)
-            {
-                foreach (var result in run.Results)
-                {
-                    if (result.Locations != null)
-                    {
-                        foreach (var loc in result.Locations)
-                        {
-                            if (loc.PhysicalLocation?.ArtifactLocation != null)
-                            {
-                                var relativePath = engine.GetRelativePath(result);
-                                loc.PhysicalLocation.ArtifactLocation.Uri = new Uri(relativePath, UriKind.RelativeOrAbsolute);
-                            }
-                        }
-                    }
-                }
-            }
-
-            if (run.Artifacts != null)
-            {
-                foreach (var artifact in run.Artifacts)
-                {
-                    if (artifact.Location != null)
-                    {
-                        var path = artifact.Location.Uri.OriginalString;
-                        if (settings.RootPath != null)
-                        {
-                            string absoluteRoot = System.IO.Path.GetFullPath(settings.RootPath);
-                            string absolutePath = System.IO.Path.IsPathRooted(path) ? path : System.IO.Path.GetFullPath(path, absoluteRoot);
-                            
-                            if (absolutePath.StartsWith(absoluteRoot, StringComparison.OrdinalIgnoreCase))
-                            {
-                                path = System.IO.Path.GetRelativePath(absoluteRoot, absolutePath).Replace('\\', '/');
-                            }
-                        }
-                        artifact.Location.Uri = new Uri(path, UriKind.RelativeOrAbsolute);
-                    }
-                }
-            }
-        }
-
-        SanitizeTimingProperties(log);
+        SarifSanitizer.Sanitize(log, settings.RootPath);
 
         Program.SaveSarif(log, settings.OutputPath ?? settings.Path);
         AnsiConsole.MarkupLine("[green]Sanitization complete.[/]");
         return 0;
     }
 
-    private static readonly string[] TimingPropertyKeys =
-    [
-        "analyzerExecutionTime",
-        "executionTimeInSeconds",
-        "executionTimeInPercentage",
-    ];
-
-    private static void SanitizeTimingProperties(SarifLog log)
-    {
-        foreach (var run in log.Runs)
-        {
-            ZeroTimingProperties(run);
-
-            if (run.Tool?.Driver?.Rules != null)
-            {
-                foreach (var rule in run.Tool.Driver.Rules)
-                {
-                    ZeroTimingProperties(rule);
-                }
-            }
-
-            if (run.Tool?.Extensions != null)
-            {
-                foreach (var extension in run.Tool.Extensions)
-                {
-                    if (extension.Rules != null)
-                    {
-                        foreach (var rule in extension.Rules)
-                        {
-                            ZeroTimingProperties(rule);
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    private static void ZeroTimingProperties(PropertyBagHolder holder)
-    {
-        foreach (var key in TimingPropertyKeys)
-        {
-            if (holder.PropertyNames.Contains(key))
-            {
-                holder.SetProperty(key, "0");
-            }
-        }
-    }
 }

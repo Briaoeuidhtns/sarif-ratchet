@@ -12,6 +12,11 @@ publish/
 /result
 /result-*
 node_modules/
+/artifacts/
+!/bin/
+/bin/*
+!/bin/index.js
+!/bin/install.cjs
 
 # Nix specific
 .direnv/

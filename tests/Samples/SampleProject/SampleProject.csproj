@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <ErrorLog>SampleProject.sarif,version=2.1</ErrorLog>
+    <ErrorLog>obj/SampleProject.sarif,version=2.1</ErrorLog>
   </PropertyGroup>
 
 </Project>

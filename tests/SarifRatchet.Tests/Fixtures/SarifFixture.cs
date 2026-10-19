@@ -23,7 +23,7 @@ public static class SarifFixture
                             ArtifactLocation = new ArtifactLocation { Uri = new Uri(i.filePath, UriKind.RelativeOrAbsolute) },
                             Region = new Region { StartLine = i.line, StartColumn = i.col }
                         },
-                        LogicalLocation = i.logicalLocation != null ? new LogicalLocation { FullyQualifiedName = i.logicalLocation } : null
+                        LogicalLocations = i.logicalLocation != null ? new List<LogicalLocation> { new() { FullyQualifiedName = i.logicalLocation } } : null
                     }
                 },
                 PartialFingerprints = i.fingerprint != null ? new Dictionary<string, string> { ["id"] = i.fingerprint } : null

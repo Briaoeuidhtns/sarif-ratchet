@@ -24,9 +24,9 @@ public class SpectreOutputFormatter : IOutputFormatter
         {
             table.AddRow(
                 "[red]New[/]", 
-                error.RuleId, 
-                error.Message ?? "-", 
-                error.FilePath, 
+                Markup.Escape(error.RuleId),
+                Markup.Escape(error.Message ?? "-"),
+                Markup.Escape(error.FilePath),
                 $"{error.Line}:{error.Column}"
             );
         }
@@ -36,9 +36,9 @@ public class SpectreOutputFormatter : IOutputFormatter
             var color = warnRemoved ? "yellow" : "green";
             table.AddRow(
                 $"[{color}]Fixed[/]", 
-                error.RuleId, 
-                error.Message ?? "-", 
-                error.FilePath, 
+                Markup.Escape(error.RuleId),
+                Markup.Escape(error.Message ?? "-"),
+                Markup.Escape(error.FilePath),
                 $"{error.Line}:{error.Column}"
             );
         }
@@ -80,17 +80,27 @@ public class GitHubOutputFormatter : IOutputFormatter
     {
         foreach (var error in report.NewErrors)
         {
-            // ::error file={name},line={line},col={col},title={title}::{message}
             var message = error.Message ?? $"New static analysis error found: {error.RuleId}";
-            System.Console.WriteLine($"::error file={error.FilePath},line={error.Line},col={error.Column},title={error.RuleId}::{message}");
+            WriteAnnotation("error", error, message);
         }
 
         if (warnRemoved)
         {
             foreach (var error in report.FixedErrors)
             {
-                System.Console.WriteLine($"::warning file={error.FilePath},line={error.Line},col={error.Column},title={error.RuleId}::Fixed error was removed but --warn-removed is set: {error.RuleId}");
+                WriteAnnotation("warning", error, $"Fixed error was removed but --warn-removed is set: {error.RuleId}");
             }
         }
     }
+
+    private static void WriteAnnotation(string level, ResultKey error, string message)
+    {
+        System.Console.WriteLine($"::{level} file={EscapeProperty(error.FilePath)},line={error.Line},col={error.Column},title={EscapeProperty(error.RuleId)}::{EscapeData(message)}");
+    }
+
+    private static string EscapeData(string value) =>
+        value.Replace("%", "%25").Replace("\r", "%0D").Replace("\n", "%0A");
+
+    private static string EscapeProperty(string value) =>
+        EscapeData(value).Replace(":", "%3A").Replace(",", "%2C");
 }

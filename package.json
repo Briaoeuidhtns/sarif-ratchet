@@ -1,20 +1,17 @@
 {
   "name": "sarif-ratchet",
   "version": "1.0.0",
+  "private": true,
   "description": "A CLI tool to maintain a SARIF error ratchet.",
-  "main": "index.js",
-  "bin": {
-    "sarif-ratchet": "bin/index.js"
-  },
+  "bin": { "sarif-ratchet": "bin/index.js" },
+  "files": ["bin/index.js", "bin/install.cjs", "bin/win-x64/**", "bin/win-arm64/**", "bin/linux-x64/**", "bin/linux-arm64/**", "bin/osx-x64/**", "bin/osx-arm64/**", "README.md"],
   "scripts": {
-    "prepublishOnly": "dotnet publish src/SarifRatchet/SarifRatchet.csproj -c Release -r linux-x64 --self-contained true -o bin/linux-x64 && dotnet publish src/SarifRatchet/SarifRatchet.csproj -c Release -r win-x64 --self-contained true -o bin/win-x64 && dotnet publish src/SarifRatchet/SarifRatchet.csproj -c Release -r osx-x64 --self-contained true -o bin/osx-x64"
+    "build:artifacts": "node scripts/build-artifacts.cjs",
+    "pack:artifacts": "node scripts/build-artifacts.cjs",
+    "smoke:artifacts": "node scripts/smoke-artifacts.cjs"
   },
-  "keywords": [
-    "sarif",
-    "ratchet",
-    "static-analysis",
-    "ci"
-  ],
-  "author": "opencode",
+  "engines": { "node": ">=20" },
+  "keywords": ["sarif", "ratchet", "static-analysis", "ci"],
+  "author": "Briaoeuidhtns",
   "license": "MIT"
 }
